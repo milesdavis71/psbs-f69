@@ -1,5 +1,6 @@
 schools:
-  bs:
+  bs: 
     img: dfdf
     title: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
-  ps: Szegedi Petőfi Sándor Általános Iskola
+  ps:
+    title: Szegedi Petőfi Sándor Általános Iskola
