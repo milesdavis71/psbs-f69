@@ -1,9 +1,11 @@
 schools:
   bs: 
     color: darkorange
+    favicon:  bs
     logo: logo_bs
     title: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
   ps:
     color: darkblue
+    favicon:  ps
     logo: logo_ps
     title: Szegedi Petőfi Sándor Általános Iskola
