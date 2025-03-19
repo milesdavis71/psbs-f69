@@ -9,3 +9,8 @@ schools:
     favicon:  ps
     logo: logo_ps
     title: Szegedi Petőfi Sándor Általános Iskola
+
+menu:
+- icon: sdsd
+  title: sdfsdf
+  url: dsfsdfg
