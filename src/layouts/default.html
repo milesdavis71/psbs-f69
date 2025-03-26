@@ -8,7 +8,6 @@ unless specified. --}}
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{#with global.schools.ps}}
     <title>A {{title}} weboldala</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/favicon_{{favicon}}.ico" />
     <link rel="stylesheet" href="{{root}}assets/css/app.css" />
@@ -26,9 +25,10 @@ unless specified. --}}
         <div class="cell shrink header medium-cell-block-container">
             <div class="grid-x grid-padding-x">
 
+                {{#with global.schools.ps}}
 
                 {{> sticky_bar}}
-
+                {{/with}}
             </div>
         </div>
         <div class="cell medium-auto medium-cell-block-container">
@@ -40,10 +40,14 @@ unless specified. --}}
                 <div class="cell medium-9 medium-cell-block-y">
                     <div class="grid-x grid-padding-x">
                         <div class="cell medium-12 large-9">
+                            {{#with global.schools.ps}}
                             {{> body}}
+                            {{/with}}
                         </div>
                         <div class="cell medium-12 large-3">
+                            {{#with global.schools.ps}}
                             {{> right_column}}
+                            {{/with}}
                         </div>
 
 
@@ -58,7 +62,6 @@ unless specified. --}}
             <h3>Here's my footer</h3>
         </div> -->
     </div>
-    {{/with}}
 
     <script src="{{root}}assets/js/app.js"></script>
 </body>

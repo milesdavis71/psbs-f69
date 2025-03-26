@@ -22,7 +22,7 @@ pages:
 
 #bemutatkozás
   - title: Bemutatkozás
-    folder: bemutatkozas
+    url: index
     icon: torsos-all
     menu: bemutatkozas
     submenu:
@@ -32,63 +32,6 @@ pages:
       - title: Tanáraink
         page: 'tanaraink'
         url: tanaraink
-      - title: Szegedi Tehetséggondozó Tanács
-        page: 'szegedi_tehetseggondozo_tanacs'
-        url: rolunk/szegedi_tehetseggondozo_tanacs
-      - title: Idővonal
-        url: rolunk/idovonal
-        page: 'idovonal'
-      - title: Sajtómegjelenések
-        url: rolunk/sajtomegjelenesek
-        page: 'sajtomegjelenesek'
-      - title: Partnerek
-        url: rolunk/partnerek
-        page: 'partnerek'
-  
-  #Híreink
-  - title: Híreink
-    url: hireink
-    icon: megaphone
-
-  #Programok
-  - title: Programok
-    icon: calendar
-    menu: prog
-    submenu:
-      - title: Középiskolai Partneri Program
-        folder: programok
-        url: kozepiskolai_partneri_program
-        page: 'kozepiskolai_partneri_program'
-      - title: SZTE Junior Akademiai Előadások
-        folder: programok
-        url: szte_junior_akademiai_eloadasok
-        page: 'szte_junior_akademiai_eloadasok'
-      - title: Versenyek
-        folder: programok
-        url: versenyek
-        page: 'versenyek'
-      - title: Osztálykirándulások
-        folder: programok
-        url: osztalykirandulasok
-        page: 'osztalykirandulasok'
-      - title: Workshopok
-        folder: programok
-        url: workshopok
-        page: 'workshopok'
-      - title: Pályaorientációs tanácsadás
-        folder: programok
-        url: palyaorientacios_tanacsadas
-        page: 'palyaorientacios_tanacsadas'
-      - title: Pályázatok
-        folder: programok
-        url: palyazatok
-        page: 'palyazatok'
-        
-#Tanfolyamok
-  - title: Tanfolyamok
-    folder: tanfolyamok
-    icon: projection-screen
-    menu: tanf
-    submenu:
-      
-
+      - title: Csengetési rend
+        page: 'csengetesi_rend'
+        url: csengetesi_rend
