@@ -1,3 +1,10 @@
-<div id="example1" style="height: 85vh; width: 100vw;"></div>
+---
+folder: bemutatkozas
+description: Lorem ipsum.
+---
+
+<div id="example1" style="height: 85vh; width: 100vw"></div>
 {{>pdfviewer}}
-<script>PDFObject.embed("{{root}}assets/bemutatkozas/kollektiv_szerzodes_ps_bs.pdf", "#example1");</script>
+<script>
+    PDFObject.embed('../assets/{{folder}}/kollektiv_szerzodes.pdf', '#example1')
+</script>

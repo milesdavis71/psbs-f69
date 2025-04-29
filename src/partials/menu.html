@@ -1,7 +1,7 @@
 <h4>bal menü</h4>
 <!-- prettier-ignore -->
-{{#each global.menu}}
-<ul class="vertical menu accordion-menu" data-accordion-menu>
+{{#each global.pages}}
+<ul class="vertical menu accordion-menu" data-accordion-menu >
     <li {{#ifpage page}} class="current" {{/ifpage}}>
         <a href="../{{url}}.html"><i class="fi-{{icon}}"></i> {{title}}</a>
         {{#if submenu}}

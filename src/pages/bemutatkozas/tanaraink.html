@@ -1,10 +1,28 @@
+---
+title: Csengetési rend
+description: Lorem ipsum.
+school_ps: Szegedi Petőfi Sándor Általános Iskola
+school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
+
 <div class="cell medium-9 medium-cell-block-y">
-    {{>tabs_ul}}
-    {{>tabs_content1}}
-    {{> tanarok_ps}}
-    {{> noksosok_ps}}
-    {{>tabs_content2}}
-    {{> tanarok_bs}}
-    {{> noksosok_bs}}
-    {{>tabs_content3}}
+    <h5 class="text-center" style="margin-bottom: 1.1rem">
+        A Szegedi Petőfi Sándor Általános Iskola tanárai
+    </h5>
+    <table class="hover stack">
+        <tbody>
+            {{> vezetok_ps_table}} {{#each tanarokps}}
+            <tr>
+                <td>{{this.name}}</td>
+                <td>{{this.grad}}</td>
+                <td>
+                    {{#if this.spec1}} {{this.spec1}} {{/if}} {{#if this.spec2}}
+                    <br />{{this.spec2}} {{/if}} {{#if this.spec3}}
+                    <br />{{this.spec3}} {{/if}}
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
 </div>
