@@ -3,8 +3,29 @@ schools:
     color: rgb(63, 169, 245);
     favicon: ps
     logo: logo_ps
+    tabtitle: PSAI
     title: Szegedi Petőfi Sándor Általános Iskola
     tanarok:
+      - name: Winkler Andrea
+        grad: főiskola
+        spec1: mesterpedagógus
+        spec2: minősítési és tanfelügyeleti szakértő
+        spec3: matematika–földrajz szakos általános iskolai tanár
+        spec4: közoktatási vezető – szakvizsgázott pedagógus
+        spec5: szakközgazdász
+        role: igazgató
+      - name: Hurton Katalin
+        grad: főiskola
+        spec1: kémia szakos általános iskolai tanár
+        spec2: általános iskolai tanító
+        spec3: szakvizsgázott pedagógus tantárgypedagógiai kérdések az iskolai gyakorlatban területen
+        role: igazgatóhelyettes
+      - name: Katona-Madarász Viktória
+        grad: egyetem
+        spec1: történelem szakos középiskolai tanár
+        spec2: angol–történelem szakos általános iskolai tanár
+        spec3: szakvizsgázott pedagógus, közoktatási vezető
+        role: igazgatóhelyettes
       - name: Bendéné Bán Gyöngyi
         grad: főiskola
         spec1: magyar–történelem–ének-zene szakos általános iskolai tanár
@@ -12,74 +33,192 @@ schools:
         grad: főiskola
         spec1: általános iskolai tanító vizuális nevelés szakkollégiumi képzéssel
       - name: Bohusné Megyesi Vera
+        school: ps
         grad: egyetem
         spec1: fizika–technika szakos általános iskolai tanár
       - name: Czeglédyné Somi Éva
+        school: ps
         grad: főiskola
         spec1: földrajz–rajz szakos általános iskolai tanár
       - name: Csányi Erika
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Gonda Babett
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Gusztosné Thékes Andrea
+        school: ps
         grad: főiskola
         spec1: magyar–történelem szakos általános iskolai tanár
       - name: Haumann Anett
+        school: ps
         grad: egyetem
         spec1: okleveles német- és nemzetiségi német szakos általános iskolai tanár
         spec2: angol–német szakos tanár
       - name: Kovács-Kincses Emilia
+        school: ps
         grad: főiskola
         spec1: biológia–kémia szakos általános iskolai tanár
       - name: Labanczné Bányász Anett
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Májer Szilvia
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Minik Ilona
+        school: ps
         grad: egyetem
         spec1: középiskolai informatikatanár
         spec2: közgazdasági programozó matematikus
       - name: Molnár-Berkó Rita Tímea
+        school: ps
         grad: főiskola
         spec1: angol szakos általános iskolai tanár,
         spec2: gyógypedagógus
         spec3: tanulásban akadályozottak pedagógiája szakos tanár
       - name: Molnár-Tóth Szilvia
+        school: ps
         grad: egyetem, főiskola
         spec1: testnevelés szakos középiskolai tanár
         spec2: testnevelés–rekreáció szakos általános iskolai tanár
       - name: Nagy-Györgyné Krémer Katalin
+        school: ps
         grad: főiskola
         spec1: angol–matematika–fizika szakos általános iskolai tanár
       - name: Péczeli Zoltán
+        school: ps
         grad: főiskola
         spec1: sakk oktató (óraadó)
       - name: Sipos Lili
+        school: ps
         grad: főiskola
         spec1: angol–történelem szakos általános iskolai tanár
       - name: Szabó Adrienne
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Szabó Amanda Márta
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Vigh Anita
+        school: ps
         grad: főiskola
         spec1: általános iskolai tanító
       - name: Zombori-Benczur Izabella
+        school: bs
         grad: egyetem
         spec1: középiskolai biológia–természetismeret-környezettan tanár
+    csengetesi_rend:
 
   bs:
     color: rgb(247, 147, 30);
     favicon: bs
     logo: logo_bs
+    tabtitle: BSAI
     title: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
-
+    tanarok:
+      - name: Winkler Andrea
+        grad: főiskola
+        spec1: mesterpedagógus
+        spec2: minősítési és tanfelügyeleti szakértő
+        spec3: matematika–földrajz szakos általános iskolai tanár
+        spec4: közoktatási vezető – szakvizsgázott pedagógus
+        spec5: szakközgazdász
+        role: igazgató
+      - name: Hurton Katalin
+        grad: főiskola
+        spec1: kémia szakos általános iskolai tanár
+        spec2: általános iskolai tanító
+        spec3: szakvizsgázott pedagógus tantárgypedagógiai kérdések az iskolai gyakorlatban területen
+        role: igazgatóhelyettes
+      - name: Porkolábné Papp Zsuzsanna
+        grad: főiskola
+        spec1: magyar nyelv és irodalom–történelem–orosz szakos általános iskolai tanár
+        spec2: intézményvezető és középvezető területen szakvizsgázott pedagógus
+        spec3: gyógypedagógus, logopédia szakos tanár
+        role: tagiskola-igazgató
+      - name: Bendéné Bán Gyöngyi
+        grad: főiskola
+        spec1: magyar–történelem–ének-zene szakos általános iskolai tanár
+      - name: Bohusné Megyesi Vera
+        grad: egyetem
+        spec1: fizika–technika szakos általános iskolai tanár
+      - name: Czeglédyné Somi Éva
+        grad: főiskola
+        spec1: földrajz–rajz szakos általános iskolai tanár
+      - name: Csernus Fruzsina
+        grad: főiskola
+        spec1: tanító
+      - name: Fodorné Kiss Magdolna
+        grad: főiskola
+        spec1: tanító
+      - name: Darukáné Jójárt Renáta – tartósan távollévő
+        grad: főiskola
+        spec1: tanító
+      - name: Kisné Fülöp Ilona
+        grad: főiskola
+        spec1: tanító
+      - name: Kovács-Kincses Emilia
+        grad: főiskola
+        spec1: biológia–kémia szakos általános iskolai tanár
+      - name: Minik Ilona
+        grad: egyetem
+        spec1: középiskolai informatikatanár
+        spec2: közgazdasági programozó matematikus
+      - name: Megyesi Beáta
+        grad: főiskola
+        spec1: történelem szakos általános iskolai tanár
+        spec2: könyvtáros
+      - name: Nagyistók Zsuzsanna
+        grad: főiskola
+        spec1: matematika-földrajz szakos általános iskolai tanár,
+        spec2: számítástechnika tanár
+      - name: Pajkó Mihály Zsolt
+        grad: egyetem, főiskola
+        spec1: testnevelő tanár, testnevelés–technika szakos általános iskolai tanár
+        spec2: közoktatási vezető, szakvizsgázott pedagógus,
+        spec3: művelődésszervező
+      - name: Patyi Zoltán
+        grad: főiskola
+        spec1: néptánc oktató
+      - name: Savanya Béláné
+        grad: főiskola
+        spec1: tanító
+      - name: Simonné Tóth Edina
+        grad: főiskola
+        spec1: tanító
+      - name: Skultéti Katalin
+        grad: főiskola
+        spec1: tanító
+      - name: Széllné Bartók Mária
+        grad: főiskola
+        spec1: tanító
+      - name: Terhes Bernadett
+        grad: főiskola
+        spec1: általános iskolai tanító
+      - name: Tombácz Adél
+        grad: egyetem
+        spec1: angol nyelv és kultúra - magyar szakos középiskolai tanár
+      - name: Túri Ágnes
+        grad: főiskola
+        spec1: általános iskolai angol nyelvtanár
+      - name: Ungerné Fekete Mónika
+        grad: főiskola
+        spec1: általános iskolai magyar tanár és könyvtáros
+        spec2: differenciáló, fejlesztő pedagógiai ismeretek
+        spec3: szakvizsgázott pedagógus, fejlesztőpedagógus
+      - name: Zombori-Benczur Izabella
+        grad: egyetem
+        spec1: középiskolai biológia–természetismeret-környezettan tanár
+    noksosok:
+      - name: Zombori
+        grad: hihi
+        job: haha
 menu:
   - icon: sdsd
     title: sdfsdf
@@ -144,3 +283,5 @@ pages:
         page: 'gyermekvedelem'
         url: gyermekvedelem
         folder: bemutatkozas
+
+active: ps

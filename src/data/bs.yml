@@ -1,0 +1,167 @@
+color: rgb(247, 147, 30);
+favicon: bs
+logo: logo_bs
+tabtitle: BSAI
+title: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+tanarok:
+  - name: Winkler Andrea
+    grad: főiskola
+    spec1: mesterpedagógus
+    spec2: minősítési és tanfelügyeleti szakértő
+    spec3: matematika–földrajz szakos általános iskolai tanár
+    spec4: közoktatási vezető – szakvizsgázott pedagógus
+    spec5: szakközgazdász
+    role: igazgató
+  - name: Hurton Katalin
+    grad: főiskola
+    spec1: kémia szakos általános iskolai tanár
+    spec2: általános iskolai tanító
+    spec3: szakvizsgázott pedagógus tantárgypedagógiai kérdések az iskolai gyakorlatban területen
+    role: igazgatóhelyettes
+  - name: Porkolábné Papp Zsuzsanna
+    grad: főiskola
+    spec1: magyar nyelv és irodalom–történelem–orosz szakos általános iskolai tanár
+    spec2: intézményvezető és középvezető területen szakvizsgázott pedagógus
+    spec3: gyógypedagógus, logopédia szakos tanár
+    role: tagiskola-igazgató
+  - name: Bendéné Bán Gyöngyi
+    grad: főiskola
+    spec1: magyar–történelem–ének-zene szakos általános iskolai tanár
+  - name: Bohusné Megyesi Vera
+    grad: egyetem
+    spec1: fizika–technika szakos általános iskolai tanár
+  - name: Czeglédyné Somi Éva
+    grad: főiskola
+    spec1: földrajz–rajz szakos általános iskolai tanár
+  - name: Csernus Fruzsina
+    grad: főiskola
+    spec1: tanító
+  - name: Fodorné Kiss Magdolna
+    grad: főiskola
+    spec1: tanító
+  - name: Darukáné Jójárt Renáta – tartósan távollévő
+    grad: főiskola
+    spec1: tanító
+  - name: Kisné Fülöp Ilona
+    grad: főiskola
+    spec1: tanító
+  - name: Kovács-Kincses Emilia
+    grad: főiskola
+    spec1: biológia–kémia szakos általános iskolai tanár
+  - name: Minik Ilona
+    grad: egyetem
+    spec1: középiskolai informatikatanár
+    spec2: közgazdasági programozó matematikus
+  - name: Megyesi Beáta
+    grad: főiskola
+    spec1: történelem szakos általános iskolai tanár
+    spec2: könyvtáros
+  - name: Nagyistók Zsuzsanna
+    grad: főiskola
+    spec1: matematika-földrajz szakos általános iskolai tanár,
+    spec2: számítástechnika tanár
+  - name: Pajkó Mihály Zsolt
+    grad: egyetem, főiskola
+    spec1: testnevelő tanár, testnevelés–technika szakos általános iskolai tanár
+    spec2: közoktatási vezető, szakvizsgázott pedagógus,
+    spec3: művelődésszervező
+  - name: Patyi Zoltán
+    grad: főiskola
+    spec1: néptánc oktató
+  - name: Savanya Béláné
+    grad: főiskola
+    spec1: tanító
+  - name: Simonné Tóth Edina
+    grad: főiskola
+    spec1: tanító
+  - name: Skultéti Katalin
+    grad: főiskola
+    spec1: tanító
+  - name: Széllné Bartók Mária
+    grad: főiskola
+    spec1: tanító
+  - name: Terhes Bernadett
+    grad: főiskola
+    spec1: általános iskolai tanító
+  - name: Tombácz Adél
+    grad: egyetem
+    spec1: angol nyelv és kultúra - magyar szakos középiskolai tanár
+  - name: Túri Ágnes
+    grad: főiskola
+    spec1: általános iskolai angol nyelvtanár
+  - name: Ungerné Fekete Mónika
+    grad: főiskola
+    spec1: általános iskolai magyar tanár és könyvtáros
+    spec2: differenciáló, fejlesztő pedagógiai ismeretek
+    spec3: szakvizsgázott pedagógus, fejlesztőpedagógus
+  - name: Zombori-Benczur Izabella
+    grad: egyetem
+    spec1: középiskolai biológia–természetismeret-környezettan tanár
+noksosok:
+  - name: Zombori
+    grad: hihi
+    job: haha
+menu:
+  - icon: sdsd
+    title: sdfsdf
+    url: dsfsdfg
+
+pages:
+  - title: Főoldal/Híreink
+    url: index
+    icon: home
+
+  #bemutatkozás
+  - title: Bemutatkozás
+    url: index
+    icon: torsos-all
+    menu: bemutatkozas
+submenu:
+  - title: Bemutatkozás
+    page: 'bemutatkozas'
+    url: bemutatkozas
+    folder: bemutatkozas
+  - title: Tanáraink
+    page: 'tanaraink'
+    url: tanaraink
+    folder: bemutatkozas
+  - title: Csengetési rend
+    page: 'csengetesi_rend'
+    url: csengetesi_rend
+    folder: bemutatkozas
+  - title: Iskolánkat segítő külsős munkatársak
+    page: 'iskolankat_segito_kulsos_munkatarsak'
+    url: iskolankat_segito_kulsos_munkatarsak
+    folder: bemutatkozas
+  - title: Hitoktatóink
+    page: 'hitoktatoink'
+    url: hitoktatoink
+    folder: bemutatkozas
+  - title: Felekezetek bemutatkozása
+    page: 'felekezetek_bemutatkozasa'
+    url: felekezetek_bemutatkozasa
+    folder: bemutatkozas
+  - title: Pedagógiai program
+    page: 'pedagogiai_program'
+    url: pedagogiai_program
+    folder: bemutatkozas
+  - title: SZMSZ
+    page: 'szmsz'
+    url: szmsz
+    folder: bemutatkozas
+  - title: Kollektív szerződés
+    page: 'kollektiv_szerzodes'
+    url: kollektiv_szerzodes
+    folder: bemutatkozas
+  - title: IMIP
+    page: 'imip'
+    url: imip
+    folder: bemutatkozas
+  - title: Házirend
+    page: 'hazirend'
+    url: hazirend
+    folder: bemutatkozas
+  - title: Gyermekvédelem
+    page: 'gyermekvedelem'
+    url: gyermekvedelem
+    folder: bemutatkozas

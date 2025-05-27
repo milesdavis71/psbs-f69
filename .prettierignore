@@ -1,3 +1,11 @@
-src/partials/menu.html
-src/partials/submenus.html
+menu.html
+submenus.html
+tanaraink.html
+src/partials/layout_part1.html
+src/partials/layout_part2.html
+src/partials/layout_part3.html
+src/partials/layout_part4.html
+src/partials/md_noksosok.html
+default.html
+two_columns.html
 
